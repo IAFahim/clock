@@ -13,6 +13,7 @@ var Tick = /** @class */ (function () {
         this._sec = document.getElementById(s);
         this._min = document.getElementById(m);
         this._hour = document.getElementById(h);
+        this.tick();
         setInterval(this.tick, 1000);
     }
     return Tick;

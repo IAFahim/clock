@@ -12,7 +12,6 @@ body {
 
 .hand {
     border-radius: 5px;
-    background: black;
     position: absolute;
     top: 50%;
     width: 50%;
@@ -23,13 +22,15 @@ body {
 
 #sec-hand {
     height: 3px;
-
+    background: black;
 }
 
 #min-hand {
     height: 6px;
+    background: black;
 }
 
 #hour-hand {
     height: 9px;
+    background: black;
 }
