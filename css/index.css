@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    width: 50%;
+}
+
+.hand {
+    border-radius: 5px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    width: 50%;
+    transform-origin: 100%;
+    transition: all 2ms;
+    transition-timing-function: cubic-bezier(0.1, 2.7, .58, 1);
+}
+
+#sec-hand {
+    height: 3px;
+
+}
+
+#min-hand {
+    height: 6px;
+}
+
+#hour-hand {
+    height: 9px;
+}
